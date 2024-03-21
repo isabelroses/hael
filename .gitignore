@@ -1,0 +1,7 @@
+.direnv
+.Ds_Store
+vendor/
+result/
+
+
+dist/

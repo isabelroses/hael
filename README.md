@@ -9,3 +9,23 @@ export HAEL_GENDER="fem" # this can be "fem", "masc" or "both"
 
 nix run github:isabelroses/hael
 ```
+
+### Help
+```
+Usage: hael [FLAGS]
+
+Flags:
+  -h, --help    Print this help message
+  -r, --random  Print a random euphoric message
+  -p, --pickup  Print a pick-me-up message
+
+Environment Variables:
+  HAEL_GENDER  'fem', 'masc' or 'both'
+
+Examples:
+  hael -r
+  hael --pickup
+
+Help:
+  https://github.com/isabelroses/hael
+```

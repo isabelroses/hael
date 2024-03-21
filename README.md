@@ -10,6 +10,9 @@ export HAEL_GENDER="fem" # this can be "fem", "masc" or "both"
 nix run github:isabelroses/hael
 ```
 
+If you don't have to worry about someone finding out, you can also install it globally.
+You can find your appopriate [release](https://github.com/isabelroses/hael/releases) and download it.
+
 ### Help
 ```
 Usage: hael [FLAGS]

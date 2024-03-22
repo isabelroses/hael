@@ -17,11 +17,17 @@ var (
 		"blossom, darling bud; your petals whisper tales of resilience",
 	}
 
-	Masc = [4]string{
+	Masc = [10]string{
 		"good boy",
 		"you are a beacon of masculinity, strength, and power",
 		"you exude ruggedness effortlessly",
 		"you are a king",
+		"rise and conquer, noble warrior; your strength knows no bounds",
+		"you are the epitome of resilience, courage, and honor, standing tall amidst life's challenges",
+		"in your presence, there's an allure of raw masculinity and unyielding determination",
+		"you are not just a star; you're a blazing comet, carving through the cosmos with purpose and vigor",
+		"with each step, you leave imprints of resilience and fortitude upon the earth",
+		"stand tall like the mighty oak, weathering storms with unwavering strength and dignity",
 	}
 
 	Both = [(len(Fem) + len(Masc))]string{}

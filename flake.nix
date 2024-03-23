@@ -1,5 +1,5 @@
 {
-  description = "Licence Now";
+  description = "Hael is a CLI for giving you a nice and sweet message to remind you of how amazing you are.";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 

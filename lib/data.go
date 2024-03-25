@@ -21,7 +21,7 @@ var (
 		"You look beautiful just the way you are",
 	}
 
-	Masc = [10]string{
+	Masc = [14]string{
 		"good boy",
 		"you are a beacon of masculinity, strength, and power",
 		"you exude ruggedness effortlessly",

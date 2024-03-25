@@ -23,6 +23,7 @@ archives:
       {{- if .Arm }}v{{ .Arm }}{{ end }}
 
 changelog:
+  use: github-native
   sort: asc
   filters:
     exclude:

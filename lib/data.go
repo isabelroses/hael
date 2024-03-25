@@ -2,7 +2,7 @@ package lib
 
 var (
 	// TODO: expand on these arrays
-	Fem = [16]string{
+	Fem = [17]string{
 		"good girl",
 		"you are a beacon of femininity, strength, and grace",
 		"you exude elegance effortlessly",
@@ -19,6 +19,7 @@ var (
 		"you're beautiful",
 		"you're loved",
 		"You look beautiful just the way you are",
+		"you're a gay girl uwu~",
 	}
 
 	Masc = [14]string{

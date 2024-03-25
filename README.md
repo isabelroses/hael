@@ -17,7 +17,7 @@ Flags:
   -p, --pickup  Print a pick-me-up message
 
 Environment Variables:
-  HAEL_GENDER  'fem', 'masc', 'all' or 'genderless'
+  HAEL_GENDER  'fem', 'masc', 'neutral' or 'all'
 
 Examples:
   hael -r

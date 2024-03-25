@@ -1,14 +1,16 @@
 package lib
 
-func GenderTurnary(gender string, f string, m string, b string) string {
+func GenderReduce(gender string, f string, m string, n string, d string) string {
 	var out string
 	switch gender {
 	case "fem":
 		out = f
 	case "masc":
 		out = m
+	case "neutral":
+		out = n
 	default:
-		out = b
+		out = d
 	}
 	return out
 }

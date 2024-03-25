@@ -2,7 +2,7 @@ package lib
 
 var (
 	// TODO: expand on these arrays
-	Fem = [12]string{
+	Fem = [16]string{
 		"good girl",
 		"you are a beacon of femininity, strength, and grace",
 		"you exude elegance effortlessly",
@@ -15,6 +15,10 @@ var (
 		"shine bright, darling; your authenticity is a sparkle in the universe",
 		"embrace your hues, precious gem; you're a kaleidoscope of beauty",
 		"blossom, darling bud; your petals whisper tales of resilience",
+		"you're an amazing girl <3",
+		"you're beautiful",
+		"you're loved",
+		"You look beautiful just the way you are",
 	}
 
 	Masc = [10]string{
@@ -28,6 +32,10 @@ var (
 		"you are not just a star; you're a blazing comet, carving through the cosmos with purpose and vigor",
 		"with each step, you leave imprints of resilience and fortitude upon the earth",
 		"stand tall like the mighty oak, weathering storms with unwavering strength and dignity",
+		"you're an amazing boy <3",
+		"you're beautiful",
+		"you're loved",
+		"You look handsome just the way you are",
 	}
 
 	Both = [(len(Fem) + len(Masc))]string{}

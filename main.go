@@ -30,7 +30,7 @@ Flags:
   -p, --pickup  Print a pick-me-up message
 
 Environment Variables:
-  HAEL_GENDER  'fem', 'masc' or 'both'
+  HAEL_GENDER  'fem', 'masc', 'neutral' or 'both'
 
 Examples:
   hael -r
@@ -63,21 +63,23 @@ func main() {
 }
 
 func randomEuphoria() {
-	out := lib.GenderTurnary(
+	out := lib.GenderReduce(
 		gender,
 		lib.Fem[rand.Intn(len(lib.Fem))],
 		lib.Masc[rand.Intn(len(lib.Masc))],
-		lib.Both[rand.Intn(len(lib.Both))],
+		lib.Neutral[rand.Intn(len(lib.Neutral))],
+		lib.All[rand.Intn(len(lib.All))],
 	)
 
 	fmt.Println(out)
 }
 
 func pickmeup() {
-	out := lib.GenderTurnary(
+	out := lib.GenderReduce(
 		gender,
 		"hey you, ma'am are amazing",
 		"hey you, sir are amazing",
+		"hey you, your are amazing",
 		"hey you, your are amazing",
 	)
 
